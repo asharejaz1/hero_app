@@ -1,0 +1,112 @@
+body {
+  background-color : #082032;
+  margin-left : 2.5%;
+}
+
+button {
+  position: relative;
+  background-color: #F8B500;
+  border: none;
+  font-size: 16px;
+  color: #FFFFFF;
+  padding: 13.5px;
+  width: 11%;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius:6px;
+}
+
+button:after {
+  content: "";
+  background: #f1f1f1;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+
+input {
+    border : none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    -moz-appearance:none;
+    appearance: none;
+    background: #f2f2f2;
+    padding: 12px;
+    border-radius: 3px;
+    width: 250px;
+    height: 20px;
+    outline: none;
+    margin-top: 0%;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+  
+input::placeholder {
+  color: #222;
+  transition: color 0.3s ease;
+}
+  
+
+.stats {
+  color : #F8B500;
+  font-family: sans-serif;
+  margin : 0% 5% 0.5% 17%;
+  font-weight : bold;
+  font-size: 105%;
+}
+
+.work {
+  color : white;
+  font-family: sans-serif;
+  font-weight : bold;
+  margin : 0.1% auto 1% auto;
+}
+
+
+#topDiv {
+  margin-top: 2.5%;
+  margin-bottom: 0%;
+}
+
+  
+#firstStat {
+  margin-top : 6.0%;
+}
+
+#mainName {
+  margin : 1% auto 0.1% auto;
+  font-size : 200%;
+  color : #F8B500;
+  font-family: sans-serif;
+  padding-bottom : 1px;
+}
+
+
+#mainImg {
+  max-width:15%; 
+  max-height: 15%;
+  border-radius: 8px;
+  float : left;
+}
+
+#image {
+  text-align: left;
+  
+}
